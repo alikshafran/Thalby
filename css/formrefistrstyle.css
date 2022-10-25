@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #182a3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+}
+
+.header {
+    padding: 20px 40px 0px 40px;
+}
+.header h2 {
+    margin: 0 auto;
+}
+
+.js-form {
+    padding: 30px 40px;
+}
+
+.form_control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form_control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: rgb(154, 154, 155);
+}
+
+.form_control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding:10px ;
+}
+    
+.form_control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.btn {
+    border: 0;
+    border-radius: 40px;
+    background-color: #D399FF;
+    color: #1C1B1B
+    font-size: 16px;
+    font-weight: 600;
+    display:block;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn:hover {
+	color: #D399FF;
+	background-color: #1C1B1B;
+	
+}
+
+.form_control.success input {
+    border-color: #2ecc71;
+}
+
+.form_control.error input {
+    border-color: rgb(214, 0, 82);
+}
+
